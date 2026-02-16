@@ -1,0 +1,8 @@
+img{
+    width: 500px;
+}
+div{
+    width: 500px;
+    background-image: url("2.jpg")
+    radial-gradient(square, transparent 100%);
+}

@@ -1,0 +1,52 @@
+body{
+  background: fixed;
+  background-image: url("1.png");
+}
+#night{
+  width: 75px;
+  height: 75px;
+  animation: day 3s linear 1s 1 normal none;
+}
+
+#day{
+  width: 75px;
+  height: 75px;
+  animation: night 3s linear 1s 1 normal none;
+}
+@keyframes day {
+  from{
+    margin-left: 0%;
+    background-image: url("1.png");
+  }
+  to{
+    margin-left: 25%;
+    background-image: url("2.png");
+  }
+  to{
+    margin-left: 50%;
+    background-image: url("3.png");
+  }
+  to{
+    margin-left: 75%;
+    background-image: url("4.png");
+  }
+}
+@keyframes night {
+  from{
+    margin-right: 0%;
+    background-image: url("1.png");
+  }
+  to{
+    margin-right: 25%;
+    background-image: url(2.png);
+  }
+  to{
+    margin-right: 50%;
+    background-image: url(3.png);
+  }
+  to{
+    margin-right: 75%;
+    background-image: url(4.png);
+  }
+}
+

@@ -1,0 +1,11 @@
+#stars:hover{
+    animation: stars 3s ease-in 1s infinite reverse both running slide-in;;
+}
+@keyframes stars {
+    from{
+        margin-left: 0%;
+    }
+    to{
+        margin-left: 100%;
+    }
+}

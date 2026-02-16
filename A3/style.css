@@ -1,0 +1,15 @@
+.transition-all{
+  animation: rotate infinite ease-in 1s 2 reverse both paused slide-in;
+}
+
+
+@keyframes rotate{
+  from{
+    margin-left: 0%;
+    rotate: 25deg;
+  }
+  to{
+    margin-left: 100%;
+    rotate: 270deg;
+  }
+}
